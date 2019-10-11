@@ -1,0 +1,211 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/*NAVBAR START*/
+
+/*links label and style*/
+.navlink-inpage li {
+	list-style: none;
+	display: inline-block;
+	color: black;
+	font-family: monospace, monospace;
+}
+
+.navlink-inpage li>a {
+	text-decoration: none;
+	color: #F5F5F5;
+	position: relative;
+	font-weight: bolder;
+}
+
+
+/*Selector (underscore) for nav link (hover)*/
+.navlink-inpage li>a:hover:after {
+	content: "";
+	border-bottom: 3px solid #FFEF00;
+	position: absolute;
+	left: 0;
+    right: 0;
+    bottom: -8px;
+}
+
+/*Selector (underscore) for nav link (focus)*/
+.navlink-inpage li>a:focus:after {
+	content: "";
+	border-bottom: 3px solid #FFEF00;
+	position: absolute;
+	left: 0;
+    right: 0;
+    bottom: -8px;
+}
+
+/*Wrapper for nav link buttons*/
+.navlink-wrapper {
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/*NAVBAR END*/
+
+
+/*LANDING PAGE START*/
+/*landing page with linear-gradient bg*/
+.mainhead {
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+	background-position: center;
+	background-size: cover;
+	height: 100.1vh;
+}
+
+/*overlay for lading page*/
+.header-overlay{
+	height: 100.1vh;
+	background: rgb(0, 0, 0, .15);
+}
+
+/*pencil scribble*/
+div.imgcontainer {
+	position: relative;
+	text-align: center;
+}
+
+/*landing page text and style*/
+.header-text {
+	font-size: 3.25em;
+	color: #fffe66;
+	margin-top: 25vh;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+/*text design bootstrap*/
+.text-bootstrap {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 1.2;
+}
+
+/*LANDING PAGE END*/
+
+
+/*class for full-window viewport height*/
+.parallax {
+	height: 100vh;
+}
+
+
+/*centered items*/
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 65%;
+	transform: translate(-50%, -50%);
+}
+
+/*ABOUT START*/
+
+/*.bg-about {
+	background-image: linear-gradient(to right top, #f0f2f0, #9db9b4, #47808e, #00476e, #000c40);
+	
+}*/
+
+#about {
+-webkit-animation-duration: 1s;
+-moz-animation-duration: 1s;
+-ms-transition-animation-duration: 1s;
+}
+
+
+#hardskills {
+-webkit-animation-duration: 1s;
+-moz-animation-duration: 1s;
+-ms-transition-animation-duration: 1s;
+}
+
+/*fadein delayed by 2 secs*/
+.fadeIn-delayed {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+
+.font-audiowide {
+	font-family: 'Audiowide', cursive;
+	/*font-family: 'Share Tech Mono', monospace;*/
+}
+
+.font-sharetech {
+	font-family: 'Share Tech Mono', monospace;
+
+}
+
+/*HEXAGON PICTURE*/
+
+svg {
+	width: 11%;
+	position: absolute;
+	top: 8%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1029;
+
+}
+
+/*END HEXAGON PIC*/
+
+
+/*SKILLS CHART*/
+
+.skills-chart {
+	margin: 0 50px 0 50px;
+}
+
+#myChart {
+	width: 400px;
+}
+
+#myChart2 {
+	width: 450px;
+}
+
+/*END SKILLS CHART*/
+
+/*ABOUT END*/
+
+
+/*DESKTOP VIEW START*/
+@media only screen and (min-width: 960px){
+
+
+
+}
+
+/*DESKTOP VIEW END*/
+
+
+/*TABLET VIEW START*/
+@media only screen and (min-width: 401px) and (max-width: 960px){
+
+
+
+}
+/*TABLET VIEW END*/
+
+
+/*MOBILE VIEW START*/
+@media only screen and (max-width: 400px){
+
+
+
+}
+/*MOBILE VIEW END*/
